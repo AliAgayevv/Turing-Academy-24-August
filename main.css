@@ -1,0 +1,139 @@
+/* !CARDS START */
+
+
+main
+{
+    box-sizing: border-box;
+    max-width: 1275px;
+    height: 100vh;
+    margin: auto;
+    /* background-color: red; */
+    position: relative;
+    margin-top: 50px;
+}
+
+.cards-groups
+{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    width: 300px;
+    height: 571px;
+    border-radius: 14px;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+    position: relative;
+}
+
+.cards--image
+{
+    width: 300px;
+    height: 240px;
+    background-color: transparent;
+}
+
+.card > h2
+{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 14px 0px 10px;
+    text-align: center;
+}
+
+.cards--price-section
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 50px;
+    margin-top: 40px;
+    float: left ;
+}
+
+.cards--ex-price
+{
+    color: #999BA2;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.cards--price
+{
+    color: #212529;
+    font-weight: 700;
+}
+
+.cards--credit-section
+{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: #FBFAFA;
+    padding: 9px;
+    color: #d8d8d8;
+    z-index: -999;
+}
+
+.cards--credit-texts
+{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.cards--credit-text2
+{
+    color: #2a304c;
+    background-color: #3b7fed66;
+}
+
+.cards--credit-price
+{
+    color: #2a304c;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards--button-section
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 130px;
+    width: 159px;
+    height: 29px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards--button-section > button
+{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.cards--button1
+{
+    background-color: #3b7fec;
+    color: #FFFFFF;
+    padding: 5px 50px;
+}
+
+.cards--button2
+{
+    color: #3b7fec;
+    background-color: #fffFFF;
+    padding: 5px 50px;
+    border: 1px solid #555a70 !important; 
+}
+
+/* !CARDS END */

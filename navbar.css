@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    max-width: 1275px;
+    height: 100px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+/* ! NAVBAR START */
+
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+
+nav > input 
+{
+    margin-top: 20px;
+    width: 600px;
+    height: 20px;
+    padding: 12px 50px 10px 23px;
+    border-radius: 26px;
+    border: .5px solid #555970;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: 0 0 8px .5px rgba(0, 0, 0, .06);
+}
+
+.navbar--search-icon
+{
+    position: absolute;
+    right: 440px;
+    top: 52px;
+    transition: 1s ease;
+}
+
+.navbar--search-icon:hover
+{
+    scale: 1.2;
+}
+
+.navbar--call
+{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar--call > i
+{
+    rotate: 130deg;
+}
+
+.navbar--action-buttons
+{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar--action-buttons > i
+{
+    transition: 1s ease;
+    rotate: 10deg
+}
+
+.navbar--action-buttons > i:hover
+{
+    rotate: 0deg;
+    scale: 1.2;
+}
+
+.navbar--action-buttons::before
+{
+    content: "";
+    position: absolute;
+    right: 250px;
+    height: 30px;
+    width: 2px;
+    background-color: black;
+}
+
+/* ! NAVBAR START */
