@@ -1,2 +1,1 @@
-# Turing-Academy-24-August
-# Turing-Academy-24-August
+Smart Electronics navigation bar and card elements
